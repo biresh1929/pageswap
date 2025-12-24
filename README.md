@@ -66,7 +66,3 @@ This makes learning **hands-on and intuitive**.
 - JavaScript
 
 *(Simple frontend-based simulator for educational use)*
-
----
-git clone <repository-url>
-cd page-replacement-simulator

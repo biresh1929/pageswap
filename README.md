@@ -1,40 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📄 Page Replacement Algorithms Simulator
 
-## Getting Started
+A simple educational web application built for the **SPOS (System Programming and Operating Systems)** subject.  
+This project helps students **understand, visualize, and simulate page replacement algorithms** used in operating systems when a **page fault** occurs and the required page must be fetched from **secondary memory**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Project Objective
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+When a page fault occurs, the operating system must decide **which page to replace** in main memory.  
+This website provides a **simulator-based learning approach** to understand how different page replacement algorithms work in real time.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🧠 Algorithms Covered
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+The simulator teaches the following **page replacement algorithms**:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **FCFS (First Come First Serve)**
+- **OPR (Optimal Page Replacement)**
+- **LRU (Least Recently Used)**
+- **MRU (Most Recently Used)**
 
-## Learn More
+Each algorithm is explained clearly and demonstrated through simulation.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## ⚙️ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 📘 Learn the theory behind page replacement algorithms
+- 🧪 Interactive simulator to test algorithms
+- 🧠 Visual understanding of page faults and replacements
+- 🔄 Step-by-step page replacement process
+- 🎓 Designed specifically for **SPOS academic learning**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🖥️ Simulator
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Using the simulator, users can:
+- Enter page reference strings
+- Select a page replacement algorithm
+- Define the number of frames
+- Observe:
+  - Page hits
+  - Page faults
+  - Page replacement behavior
+
+This makes learning **hands-on and intuitive**.
+
+---
+
+## 📚 Learning Outcomes
+
+- Understand how operating systems manage memory
+- Compare different page replacement strategies
+- Analyze performance based on page faults
+- Strengthen SPOS exam and practical knowledge
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+*(Simple frontend-based simulator for educational use)*
+
+---
+git clone <repository-url>
+cd page-replacement-simulator
